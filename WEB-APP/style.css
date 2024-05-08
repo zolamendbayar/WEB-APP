@@ -1,5 +1,6 @@
 html,body{
     height:100%;
+    
 }
 body{
     background: rgb(255,80,222);
@@ -29,7 +30,7 @@ body {font-family: Verdana, sans-serif;}
 
 .month ul li {
     color: rgba(251, 42, 115, 0.462);
-    font-size: 45px;
+    font-size: 100px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -47,14 +48,15 @@ body {font-family: Verdana, sans-serif;}
 .weekdays {
     margin: 0;
     padding: 30px 0;
-    background-color: #fe699fcd;
+    background-color: #fd207100;
 }
 
 .weekdays li {
     display: inline-block;
     width: 13.6%;
-    color: #ffffff;
+    color: #ffd9eafd;
     text-align: center;
+    font-size: 30px;
 }
 
 .days {
@@ -68,14 +70,14 @@ body {font-family: Verdana, sans-serif;}
     width: 13.6%;
     text-align: center;
     margin-bottom: 5px;
-    font-size:15px;
+    font-size:24px;
     color: #ff6ea3bd;
 }
 
 .days li .active {
     padding: 5px;
 
-    color: rgb(255, 255, 255) !important
+    color: #ff6ea3bd !important
 }
 
 /* Add media queries for smaller screens */
