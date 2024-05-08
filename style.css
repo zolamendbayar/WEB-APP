@@ -1,10 +1,15 @@
 html,body{
-    height: 100%;
-    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
-body{
+html{
     background: rgb(255,80,222);
     background: linear-gradient(21deg, rgba(255,80,222,1) 0%, rgba(255,48,201,0.8995799003195029) 11%, rgba(255,144,64,1) 100%); 
+}
+body{
+    margin:0;
+    padding:0;
 }
 h1{
     font-style: initial;
@@ -48,7 +53,7 @@ body {font-family: Verdana, sans-serif;}
 .weekdays {
     margin: 0;
     padding: 30px 0;
-    background-color: #fd207100;
+    background-color: #ffc6db00;
 }
 
 .weekdays li {
@@ -56,7 +61,7 @@ body {font-family: Verdana, sans-serif;}
     width: 13.6%;
     color: #ffd9eafd;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .days {
@@ -79,6 +84,7 @@ body {font-family: Verdana, sans-serif;}
 
     color: #ff6ea3bd !important
 }
+
 
 /* Add media queries for smaller screens */
 @media screen and (max-width:720px) {
